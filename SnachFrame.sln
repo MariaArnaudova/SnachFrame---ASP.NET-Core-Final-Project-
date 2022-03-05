@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnachFrame.ASP", "SnachFrame\SnachFrame.ASP.csproj", "{629875D4-DC26-4765-B0BC-5F75ECA8BBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnachFrame.Core", "SnachFrame.Core\SnachFrame.Core.csproj", "{DA45EA39-BF7E-4B92-BF39-F2A2382ABE45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{629875D4-DC26-4765-B0BC-5F75ECA8BBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{629875D4-DC26-4765-B0BC-5F75ECA8BBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{629875D4-DC26-4765-B0BC-5F75ECA8BBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{629875D4-DC26-4765-B0BC-5F75ECA8BBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA45EA39-BF7E-4B92-BF39-F2A2382ABE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA45EA39-BF7E-4B92-BF39-F2A2382ABE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA45EA39-BF7E-4B92-BF39-F2A2382ABE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA45EA39-BF7E-4B92-BF39-F2A2382ABE45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80E4E449-47EE-427F-989C-50F4E762F240}
+	EndGlobalSection
+EndGlobal

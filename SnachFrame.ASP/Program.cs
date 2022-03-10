@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SnachFrame.Data;
+using SnachFrame.Infrastrucrure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

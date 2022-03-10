@@ -1,12 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SnachFrame.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SnachFrame.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SnachFrame.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SnachFrame.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SnachFrame.Infrastructure/SnachFrame.Infrastructure.csproj",
+      "msbuildProject": "../SnachFrame.Infrastructure/SnachFrame.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj"
+      "SnachFrame.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -36,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj": {
-              "projectPath": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj"
+            "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame.Infrastructure\\SnachFrame.Infrastructure.csproj": {
+              "projectPath": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame.Infrastructure\\SnachFrame.Infrastructure.csproj"
             }
           }
         }
@@ -69,16 +86,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

@@ -769,13 +769,23 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj": "1.0.0"
+          "SnachFrame.Infrastructure": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SnachFrame.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/SnachFrame.Core.dll": {}
+        }
+      },
+      "SnachFrame.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SnachFrame.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SnachFrame.Infrastructure.dll": {}
         }
       }
     }
@@ -2271,6 +2281,11 @@
       "type": "project",
       "path": "../SnachFrame.Core/SnachFrame.Core.csproj",
       "msbuildProject": "../SnachFrame.Core/SnachFrame.Core.csproj"
+    },
+    "SnachFrame.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SnachFrame.Infrastructure/SnachFrame.Infrastructure.csproj",
+      "msbuildProject": "../SnachFrame.Infrastructure/SnachFrame.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2368,16 +2383,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

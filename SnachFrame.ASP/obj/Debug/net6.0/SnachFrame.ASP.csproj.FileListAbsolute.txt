@@ -68,3 +68,6 @@ D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame\obj\Debug\net6.0\refint\Sna
 D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame\obj\Debug\net6.0\SnachFrame.ASP.pdb
 D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame\obj\Debug\net6.0\SnachFrame.ASP.genruntimeconfig.cache
 D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame\obj\Debug\net6.0\ref\SnachFrame.ASP.dll
+D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame---ASP.NET-Core-Final-Project-\SnachFrame.ASP\obj\Debug\net6.0\SnachFrame.ASP.dll
+D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame---ASP.NET-Core-Final-Project-\SnachFrame.ASP\obj\Debug\net6.0\refint\SnachFrame.ASP.dll
+D:\C# ASP.NET Core MVC Project\SnachFrame\SnachFrame---ASP.NET-Core-Final-Project-\SnachFrame.ASP\obj\Debug\net6.0\SnachFrame.ASP.pdb

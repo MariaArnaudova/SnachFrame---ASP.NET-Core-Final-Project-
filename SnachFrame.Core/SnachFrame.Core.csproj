@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SnachFrame\SnachFrame.ASP.csproj" />
-  </ItemGroup>
-
 </Project>

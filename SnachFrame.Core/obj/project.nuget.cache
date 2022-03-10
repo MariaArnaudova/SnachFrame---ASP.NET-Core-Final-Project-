@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ptpnCcrwl78/wrHKek1sF2MZnzsJeUOHZcUXeOUJruGboF0ZR7TTtf2f6X3zTpzz2nVxpVfujKozYjih94XxmQ==",
-  "success": false,
+  "dgSpecHash": "jHj+8f/f1xlfocdGcr3kIxAA1OGlZD6efmOyD5NqtwV4FARiKX5lRH6o078ASuN5iqXNI1RwYvkkJ+wVD/kb6w==",
+  "success": true,
   "projectFilePath": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame.Core\\SnachFrame.Core.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\C# ASP.NET Core MVC Project\\SnachFrame\\SnachFrame---ASP.NET-Core-Final-Project-\\SnachFrame\\SnachFrame.ASP.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
